@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0-windows;netstandard2.0;net462;net40</TargetFrameworks>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
     <AssemblyName>DokanNet</AssemblyName>
     <RootNamespace>DokanNet</RootNamespace>
     <Description>A user mode file system for windows. 
@@ -11,7 +11,7 @@ This is a .NET wrapper over Dokan, and allows you to create your own file system
     <Version>2.0.4.1</Version>
     <AssemblyVersion>2.0.4.1</AssemblyVersion>
     <FileVersion>2.0.4.1</FileVersion>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Company>Dokan-dev</Company>
     <Authors>AdrienJ, MaximeC, Hiroki Asakawa</Authors>
     <PackageProjectUrl>https://dokan-dev.github.io/</PackageProjectUrl>
